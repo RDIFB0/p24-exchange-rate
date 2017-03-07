@@ -1,0 +1,29 @@
+{
+    "name": "rdifb0/p24-exchange-rate",
+    "description": "PrivatBank exchange rates",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["exchange", "rates", "api", "privatbank"],
+    "authors": [
+        {
+            "name": "RDIFB0",
+            "email": "rdifb0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RDIFB0\\P24ExchangeRate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
